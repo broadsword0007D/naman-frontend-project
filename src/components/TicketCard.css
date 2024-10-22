@@ -1,0 +1,78 @@
+.ticket-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  font-family: 'Arial', sans-serif;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px; /* Fixed height to ensure all cards are the same size */
+}
+
+.ticket-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ticket-id {
+  font-size: 14px;
+  color: #888;
+}
+
+.user-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.user-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ticket-content {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  flex-grow: 1;
+}
+
+.ticket-title {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  line-height: 1.4em;
+  max-height: 2.8em; /* Limit to 2 lines */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* Limit to 2 lines */
+  -webkit-box-orient: vertical;
+  word-break: break-word;
+}
+
+.ticket-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.ticket-tag {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #888;
+  padding: 4px 8px;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+}

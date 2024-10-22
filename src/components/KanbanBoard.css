@@ -1,0 +1,168 @@
+/* General Header Styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Status Headers Section */
+.status-headers {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f8f8f8;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.status-header {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #333;
+}
+
+.status-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+/* User Headers Section */
+.user-headers {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f8f8f8;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.user-header {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #333;
+}
+
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.ticket-count {
+  font-size: 14px;
+  color: #666;
+  margin-right: 10px;
+}
+
+.add-icon,
+.menu-icon {
+  width: 24px;
+  height: 24px;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+/* Priority Headers Section */
+.priority-headers {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f8f8f8;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.priority-header {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Kanban Board Layout */
+.kanban-board {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.kanban-column {
+  background-color: #f9f9f9;
+  width: 30%;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  min-height: 200px;
+}
+
+/* Ticket Card Styling */
+.ticket-card {
+  background-color: #ffffff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.ticket-card:hover {
+  transform: translateY(-4px);
+}
+
+.ticket-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.ticket-priority {
+  background-color: #f0f0f0;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.ticket-title {
+  font-weight: bold;
+  font-size: 16px;
+  color: #333;
+}
+
+.ticket-user {
+  font-size: 14px;
+  color: #666;
+}
+
+.ticket-tags {
+  font-size: 12px;
+  color: #888;
+  margin-top: 8px;
+}
+
+/* Miscellaneous Styles */
+.error-message {
+  color: red;
+  padding: 20px;
+  text-align: center;
+  background-color: #ffefef;
+  border-radius: 8px;
+}
+
